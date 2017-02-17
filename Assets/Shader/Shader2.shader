@@ -5,7 +5,7 @@
 
 	SubShader {
 		Pass {
-			Lighting On
+			//Lighting On
 			SetTexture[_MainTex]{ Combine texture}
 		}
 	}
