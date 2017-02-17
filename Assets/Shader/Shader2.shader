@@ -1,4 +1,4 @@
-﻿Shader "Custom/Shaser2" {
+﻿Shader "Custom/Shader2" {
 	Properties {
 		_MainTex("Base", 2D) = "white" {TexGen Eyelinear}
 	}
