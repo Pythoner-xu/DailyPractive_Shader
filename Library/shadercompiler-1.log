@@ -3,59 +3,160 @@ Pipe name: \\.\pipe\UnityShaderCompiler-1--1523326528
 Cmd: getPlatforms
 Cmd: preprocess
   insize=431 outsize=1177 ok=1
+Cmd: preprocess
+  insize=52 outsize=49 ok=1
+Cmd: preprocess
+  insize=69 outsize=66 ok=1
+Cmd: preprocess
+  insize=83 outsize=80 ok=1
+Cmd: preprocess
+  insize=82 outsize=79 ok=1
+Cmd: preprocess
+  insize=125 outsize=122 ok=1
+Cmd: preprocess
+  insize=122 outsize=119 ok=1
+Cmd: preprocess
+  insize=120 outsize=117 ok=1
+Cmd: preprocess
+  insize=225 outsize=192 ok=1
 Cmd: compileSnippet
-  api=0 type=0 insize=4216 outsize=919 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+  error: 2 plat 0 at (0): Did not find shader function 'vert' to compile
+  api=0 type=0 insize=330 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=253 outsize=192 ok=1
 Cmd: compileSnippet
-  api=0 type=1 insize=4216 outsize=360 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+  error: 2 plat 0 at (13): function "vert" has no statements
+  error: 2 plat 0 at (16): expression type incompatible with function return type
+  api=0 type=0 insize=358 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=222 outsize=192 ok=1
 Cmd: compileSnippet
-  api=0 type=0 insize=2255 outsize=817 kw=POINT ok=1
+  error: 2 plat 0 at (0): Did not find shader function 'vert' to compile
+  api=0 type=0 insize=327 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=253 outsize=192 ok=1
 Cmd: compileSnippet
-  api=0 type=1 insize=2255 outsize=536 kw=POINT ok=1
+  error: 2 plat 0 at (13): function "vert" has no statements
+  error: 2 plat 0 at (16): expression type incompatible with function return type
+  api=0 type=0 insize=358 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=290 outsize=191 ok=1
 Cmd: compileSnippet
-  api=0 type=0 insize=1783 outsize=457 kw= ok=1
+  error: 2 plat 0 at (13): program "vert" must return a struct or have a varying output semantic
+  api=0 type=0 insize=395 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=312 outsize=190 ok=1
 Cmd: compileSnippet
-  api=0 type=1 insize=1783 outsize=159 kw= ok=1
+  error: 2 plat 0 at (13): syntax error, unexpected '{' at token "{" type name expected at token "{"
+  error: 1 plat 0 at (13): unrecognized profile specifier "v2f" unrecognized profile specifier "Struct"
+  error: 2 plat 0 at (16): function "vert" has no statements
+  error: 2 plat 0 at (18): syntax error, unexpected ';' at token ";" type name expected at token ";"
+  error: 1 plat 0 at (18): unrecognized profile specifier "o" unrecognized profile specifier "float4"
+  error: 2 plat 0 at (20): expression type incompatible with function return type
+  api=0 type=0 insize=417 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=317 outsize=192 ok=1
 Cmd: compileSnippet
-  api=0 type=0 insize=3968 outsize=905 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+  error: 2 plat 0 at (13): syntax error, unexpected '{' at token "{" type name expected at token "{"
+  error: 1 plat 0 at (13): unrecognized profile specifier "v2f" unrecognized profile specifier "Struct"
+  api=0 type=0 insize=422 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=314 outsize=192 ok=1
 Cmd: compileSnippet
-  api=0 type=1 insize=3968 outsize=297 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+  error: 2 plat 0 at (0): syntax error, unexpected $end at token "<EOF>" type name expected at token "<null atom>"
+  error: 2 plat 0 at (15): syntax error, unexpected '}' at token "}" type name expected at token "}"
+  api=0 type=0 insize=419 outsize=0 kw= ok=0
 Cmd: preprocess
-  insize=275 outsize=272 ok=1
+  insize=370 outsize=192 ok=1
+Cmd: compileSnippet
+  error: 2 plat 0 at (18): program "vert" must return a struct or have a varying output semantic
+  api=0 type=0 insize=475 outsize=0 kw= ok=0
 Cmd: preprocess
-  insize=275 outsize=272 ok=1
+  insize=364 outsize=192 ok=1
+Cmd: compileSnippet
+  error: 2 plat 0 at (0): Required output 'POSITION' not written
+  api=0 type=0 insize=469 outsize=0 kw= ok=0
 Cmd: preprocess
-  insize=298 outsize=295 ok=1
+  insize=364 outsize=192 ok=1
+Cmd: compileSnippet
+  error: 2 plat 0 at (14): unknown semantics "sV_POSITION" specified for "pos"
+  api=0 type=0 insize=469 outsize=0 kw= ok=0
 Cmd: preprocess
-  insize=431 outsize=1177 ok=1
+  insize=365 outsize=192 ok=1
+Cmd: compileSnippet
+  error: 2 plat 0 at (0): Required output 'POSITION' not written
+  api=0 type=0 insize=470 outsize=0 kw= ok=0
 Cmd: preprocess
-  insize=298 outsize=295 ok=1
+  insize=363 outsize=192 ok=1
+Cmd: compileSnippet
+  error: 2 plat 0 at (0): syntax error, unexpected $end at token "<EOF>" type name expected at token "<null atom>"
+  error: 2 plat 0 at (16): syntax error, unexpected '}', expecting ',' or ';' at token "}" type name expected at token "}"
+  api=0 type=0 insize=468 outsize=0 kw= ok=0
 Cmd: preprocess
-  insize=374 outsize=371 ok=1
+  insize=409 outsize=192 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=514 outsize=281 kw= ok=1
+Cmd: compileSnippet
+  error: 2 plat 0 at (0): Did not find shader function 'frag' to compile
+  api=0 type=1 insize=514 outsize=0 kw= ok=0
 Cmd: preprocess
-  insize=298 outsize=295 ok=1
+  insize=447 outsize=192 ok=1
+Cmd: compileSnippet
+  error: 2 plat 0 at (25): function "frag" has no statements
+  error: 2 plat 0 at (28): expression type incompatible with function return type
+  api=0 type=0 insize=552 outsize=0 kw= ok=0
 Cmd: preprocess
-  insize=417 outsize=414 ok=1
+  insize=508 outsize=191 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=613 outsize=281 kw= ok=1
+Cmd: compileSnippet
+  error: 2 plat 0 at (27): undefined variable "_MainTex" unable to find compatible overloaded function "tex2D(error, float2)"
+  api=0 type=1 insize=613 outsize=0 kw= ok=0
 Cmd: preprocess
-  insize=431 outsize=1177 ok=1
+  insize=539 outsize=192 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=644 outsize=281 kw= ok=1
+Cmd: compileSnippet
+  error: 2 plat 0 at (28): program "frag" must return a struct or have a varying output semantic
+  api=0 type=1 insize=644 outsize=0 kw= ok=0
 Cmd: preprocess
-  insize=184 outsize=181 ok=1
+  insize=544 outsize=192 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=649 outsize=281 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=649 outsize=98 kw= ok=1
 Cmd: preprocess
-  insize=198 outsize=195 ok=1
+  insize=592 outsize=192 ok=1
+Cmd: compileSnippet
+  error: 2 plat 0 at (25): undefined variable "_MainTex_ST" undefined variable "_MainTex_ST"
+  api=0 type=0 insize=697 outsize=0 kw= ok=0
 Cmd: preprocess
-  insize=254 outsize=251 ok=1
+  insize=614 outsize=192 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=719 outsize=365 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=719 outsize=98 kw= ok=1
 Cmd: preprocess
-  insize=254 outsize=251 ok=1
+  insize=782 outsize=245 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=833 outsize=328 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=833 outsize=98 kw= ok=1
 Cmd: preprocess
-  insize=254 outsize=251 ok=1
+  insize=984 outsize=246 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1035 outsize=328 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1035 outsize=98 kw= ok=1
 Cmd: preprocess
-  insize=268 outsize=265 ok=1
+  insize=1118 outsize=246 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1169 outsize=328 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1169 outsize=98 kw= ok=1
 Cmd: preprocess
-  insize=389 outsize=386 ok=1
-Cmd: preprocess
-  insize=389 outsize=386 ok=1
-Cmd: preprocess
-  insize=501 outsize=498 ok=1
-Cmd: preprocess
-  insize=495 outsize=492 ok=1
-Cmd: preprocess
-  insize=492 outsize=489 ok=1
+  insize=1159 outsize=246 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1210 outsize=328 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1210 outsize=98 kw= ok=1

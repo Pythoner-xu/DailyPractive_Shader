@@ -111,6 +111,9 @@
     <None Include="Assets\Shader\Shader1.shader" />
     <None Include="Assets\Shader\Shader2.shader" />
     <None Include="Assets\Shader\Shader3.shader" />
+    <None Include="Assets\Shader\Shader4.shader" />
+    <None Include="Assets\Shader\Shader5.shader" />
+    <None Include="Assets\Shader\Shader6.shader" />
     <None Include="Assets\Shader\xf_heat_distortion.shader" />
     <None Include="Assets\学习笔记.txt" />
   </ItemGroup>
