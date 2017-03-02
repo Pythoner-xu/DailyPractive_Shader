@@ -1,0 +1,61 @@
+Base path: /Applications/Unity4/Unity4.app/Contents
+Pipe name: \\.\pipe\UnityShaderCompiler-1--1523326528
+Cmd: getPlatforms
+Cmd: preprocess
+  insize=431 outsize=1177 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=4216 outsize=919 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=4216 outsize=360 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=2255 outsize=817 kw=POINT ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=2255 outsize=536 kw=POINT ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1783 outsize=457 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1783 outsize=159 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=3968 outsize=905 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=3968 outsize=297 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: preprocess
+  insize=275 outsize=272 ok=1
+Cmd: preprocess
+  insize=275 outsize=272 ok=1
+Cmd: preprocess
+  insize=298 outsize=295 ok=1
+Cmd: preprocess
+  insize=431 outsize=1177 ok=1
+Cmd: preprocess
+  insize=298 outsize=295 ok=1
+Cmd: preprocess
+  insize=374 outsize=371 ok=1
+Cmd: preprocess
+  insize=298 outsize=295 ok=1
+Cmd: preprocess
+  insize=417 outsize=414 ok=1
+Cmd: preprocess
+  insize=431 outsize=1177 ok=1
+Cmd: preprocess
+  insize=184 outsize=181 ok=1
+Cmd: preprocess
+  insize=198 outsize=195 ok=1
+Cmd: preprocess
+  insize=254 outsize=251 ok=1
+Cmd: preprocess
+  insize=254 outsize=251 ok=1
+Cmd: preprocess
+  insize=254 outsize=251 ok=1
+Cmd: preprocess
+  insize=268 outsize=265 ok=1
+Cmd: preprocess
+  insize=389 outsize=386 ok=1
+Cmd: preprocess
+  insize=389 outsize=386 ok=1
+Cmd: preprocess
+  insize=501 outsize=498 ok=1
+Cmd: preprocess
+  insize=495 outsize=492 ok=1
+Cmd: preprocess
+  insize=492 outsize=489 ok=1

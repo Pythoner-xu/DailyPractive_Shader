@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CEDE562E-307C-0F9F-09CC-65F4999937CC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneOSXIntel:4</UnityBuildTarget>
+    <UnityVersion>4.6.8f1</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion Condition=" '$(VisualStudioVersion)' != '10.0' ">4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_4_6_8;UNITY_4_6;UNITY_STANDALONE_OSX;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_IL2CPP;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;UNITY5_SCRIPTING_IN_UNITY4;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_GAMECENTER;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_4_6_8;UNITY_4_6;UNITY_STANDALONE_OSX;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_IL2CPP;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;UNITY5_SCRIPTING_IN_UNITY4;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_GAMECENTER;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Refract 2D\Example Scenes\12 - 3D\Movement\MouseLook.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Refract 2D\Shaders\1Background\1Refractor\1Background-1Refractor-1MidGround.shader" />
+    <None Include="Assets\Refract 2D\Shaders\1Background\1Refractor\1Background-1Refractor.shader" />
+    <None Include="Assets\Refract 2D\Shaders\1Background\2Refractors\1Background-2Refractors-1MidGround.shader" />
+    <None Include="Assets\Refract 2D\Shaders\1Background\2Refractors\1Background-2Refractors.shader" />
+    <None Include="Assets\Refract 2D\Shaders\1Background\3Refractors\1Background-3Refractors-1MidGround.shader" />
+    <None Include="Assets\Refract 2D\Shaders\1Background\3Refractors\1Background-3Refractors.shader" />
+    <None Include="Assets\Refract 2D\Shaders\1Background\4Refractors\1Background-4Refractors-1MidGround.shader" />
+    <None Include="Assets\Refract 2D\Shaders\1Background\4Refractors\1Background-4Refractors.shader" />
+    <None Include="Assets\Refract 2D\Shaders\2Backgrounds\1Refractor\2Backgrounds-1Refractor-1MidGround-Added.shader" />
+    <None Include="Assets\Refract 2D\Shaders\2Backgrounds\1Refractor\2Backgrounds-1Refractor-1MidGround-Multiplied.shader" />
+    <None Include="Assets\Refract 2D\Shaders\2Backgrounds\1Refractor\2Backgrounds-1Refractor-1MidGround.shader" />
+    <None Include="Assets\Refract 2D\Shaders\2Backgrounds\1Refractor\2Backgrounds-1Refractor-Added.shader" />
+    <None Include="Assets\Refract 2D\Shaders\2Backgrounds\1Refractor\2Backgrounds-1Refractor-Multiplied.shader" />
+    <None Include="Assets\Refract 2D\Shaders\2Backgrounds\1Refractor\2Backgrounds-1Refractor.shader" />
+    <None Include="Assets\Refract 2D\Shaders\2Backgrounds\2Refractors\2Backgrounds-2Refractors-1MidGround-Added.shader" />
+    <None Include="Assets\Refract 2D\Shaders\2Backgrounds\2Refractors\2Backgrounds-2Refractors-1MidGround-Multiplied.shader" />
+    <None Include="Assets\Refract 2D\Shaders\2Backgrounds\2Refractors\2Backgrounds-2Refractors-1MidGround.shader" />
+    <None Include="Assets\Refract 2D\Shaders\2Backgrounds\2Refractors\2Backgrounds-2Refractors-Added.shader" />
+    <None Include="Assets\Refract 2D\Shaders\2Backgrounds\2Refractors\2Backgrounds-2Refractors-Multiplied.shader" />
+    <None Include="Assets\Refract 2D\Shaders\2Backgrounds\2Refractors\2Backgrounds-2Refractors.shader" />
+    <None Include="Assets\Refract 2D\Shaders\2Backgrounds\3Refractors\2Backgrounds-3Refractors-1MidGround-Added.shader" />
+    <None Include="Assets\Refract 2D\Shaders\2Backgrounds\3Refractors\2Backgrounds-3Refractors-1MidGround-Multiplied.shader" />
+    <None Include="Assets\Refract 2D\Shaders\2Backgrounds\3Refractors\2Backgrounds-3Refractors-1MidGround.shader" />
+    <None Include="Assets\Refract 2D\Shaders\2Backgrounds\3Refractors\2Backgrounds-3Refractors-Added.shader" />
+    <None Include="Assets\Refract 2D\Shaders\2Backgrounds\3Refractors\2Backgrounds-3Refractors-Multiplied.shader" />
+    <None Include="Assets\Refract 2D\Shaders\2Backgrounds\3Refractors\2Backgrounds-3Refractors.shader" />
+    <None Include="Assets\Refract 2D\Shaders\2Backgrounds\4Refractors\2Backgrounds-4Refractors-Added.shader" />
+    <None Include="Assets\Refract 2D\Shaders\2Backgrounds\4Refractors\2Backgrounds-4Refractors-Multiplied.shader" />
+    <None Include="Assets\Refract 2D\Shaders\2Backgrounds\4Refractors\2Backgrounds-4Refractors.shader" />
+    <None Include="Assets\Refract 2D\Shaders\3Backgrounds\1Refractor\3Backgrounds-1Refractor-1MidGround-Added.shader" />
+    <None Include="Assets\Refract 2D\Shaders\3Backgrounds\1Refractor\3Backgrounds-1Refractor-1MidGround-Multiplied.shader" />
+    <None Include="Assets\Refract 2D\Shaders\3Backgrounds\1Refractor\3Backgrounds-1Refractor-1MidGround.shader" />
+    <None Include="Assets\Refract 2D\Shaders\3Backgrounds\1Refractor\3Backgrounds-1Refractor-Added.shader" />
+    <None Include="Assets\Refract 2D\Shaders\3Backgrounds\1Refractor\3Backgrounds-1Refractor-Multiplied.shader" />
+    <None Include="Assets\Refract 2D\Shaders\3Backgrounds\1Refractor\3Backgrounds-1Refractor.shader" />
+    <None Include="Assets\Refract 2D\Shaders\3Backgrounds\2Refractors\3Backgrounds-2Refractors-1MidGround-Added.shader" />
+    <None Include="Assets\Refract 2D\Shaders\3Backgrounds\2Refractors\3Backgrounds-2Refractors-1MidGround-Multiplied.shader" />
+    <None Include="Assets\Refract 2D\Shaders\3Backgrounds\2Refractors\3Backgrounds-2Refractors-1MidGround.shader" />
+    <None Include="Assets\Refract 2D\Shaders\3Backgrounds\2Refractors\3Backgrounds-2Refractors-Added.shader" />
+    <None Include="Assets\Refract 2D\Shaders\3Backgrounds\2Refractors\3Backgrounds-2Refractors-Multiplied.shader" />
+    <None Include="Assets\Refract 2D\Shaders\3Backgrounds\2Refractors\3Backgrounds-2Refractors.shader" />
+    <None Include="Assets\Refract 2D\Shaders\3Backgrounds\3Refractors\3Backgrounds-3Refractors-Added.shader" />
+    <None Include="Assets\Refract 2D\Shaders\3Backgrounds\3Refractors\3Backgrounds-3Refractors-Multiplied.shader" />
+    <None Include="Assets\Refract 2D\Shaders\3Backgrounds\3Refractors\3Backgrounds-3Refractors.shader" />
+    <None Include="Assets\Shader\HeatDistort_WLJ.shader" />
+    <None Include="Assets\Shader\Shader1.shader" />
+    <None Include="Assets\Shader\Shader2.shader" />
+    <None Include="Assets\Shader\Shader3.shader" />
+    <None Include="Assets\Shader\xf_heat_distortion.shader" />
+    <None Include="Assets\学习笔记.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2013\UnityVS.CSharp.targets" />
+</Project>

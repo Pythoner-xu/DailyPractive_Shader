@@ -1,0 +1,7 @@
+4.6.8f1:2.3.0.0
+StandaloneOSXIntel
+/Applications/Unity4/Unity4.app/Contents/PlaybackEngines/MacStandaloneSupport/Managed/UnityEngine.dll
+/Applications/Unity4/Unity4.app/Contents/UnityExtensions/Unity/GUISystem/4.6.8/Standalone/UnityEngine.UI.dll
+/Applications/Unity4/Unity4.app/Contents/Frameworks/Managed/UnityEditor.dll
+/Applications/Unity4/Unity4.app/Contents/UnityExtensions/Unity/GUISystem/4.6.8/Editor/UnityEditor.UI.dll
+/Applications/Unity4/Unity4.app/Contents/Frameworks/Managed/UnityEditor.Graphs.dll
